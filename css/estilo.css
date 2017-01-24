@@ -1,0 +1,54 @@
+
+/*      cabecalho   */
+
+img#icone{
+  position: absolute;
+  left: 930px;
+  top: 50px;}
+
+
+/*              Menu              */
+  #menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+
+  }
+
+  #menu li {
+      float: left;
+
+  }
+
+  #menu li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  #menu li a:hover {
+      background-color: #111;
+  }
+
+
+
+
+
+/*      rodape    */
+footer#rodape{
+  border-top: 1px solid #606060;
+  clear: both;
+}
+footer#rodape h2 {
+  text-align: center;
+}
+footer#rodape h4 {
+  text-align: center;
+}
+footer#rodape a {
+  color: black;
+}
